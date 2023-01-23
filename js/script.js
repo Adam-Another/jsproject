@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let film_questions = [
 "Сколько фильмов вы уже посмотрели?",
@@ -37,7 +37,7 @@ while(i < film_questions.length) {
       }
 
   	if(--count == 0) i = 0;
-    i++
+    i++;
 	}
 }
 
