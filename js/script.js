@@ -36,7 +36,7 @@ while(i < film_questions.length) {
         flag = 2;
       }
 
-  	if(--count == 0) i = 0;
+  	if(--count === 0) i = 0;
     i++;
 	}
 }
